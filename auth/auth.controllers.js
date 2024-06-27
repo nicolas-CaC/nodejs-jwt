@@ -76,8 +76,8 @@ const register = (req, res) => {
 
 /**
  * Endpoint response '/auth/login'
- * @param {Request} req request from client
- * @param {Response} res response to client
+ * @param {Request} req Client Request 
+ * @param {Response} res Client Response
  */
 const login = (req, res) => {
 
